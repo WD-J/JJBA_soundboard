@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="140dp">
+
+    <!-- The dimensions are based on some experimentation -->
+
+    <ImageView
+        android:id="@+id/imageViewItem"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/button"
+        android:background="@drawable/ripple_effect" />
+
+    <TextView
+        android:fontFamily="@font/yumin"
+        android:id="@+id/textViewItem"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageViewItem"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="I'm a button"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+</RelativeLayout>

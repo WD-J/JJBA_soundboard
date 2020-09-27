@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "971988417061",
+    "firebase_url": "https://jojosbizarreadventuresoundboar.firebaseio.com",
+    "project_id": "jojosbizarreadventuresoundboar",
+    "storage_bucket": "jojosbizarreadventuresoundboar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971988417061:android:2cbbb76cfcf13550",
+        "android_client_info": {
+          "package_name": "soundboys.wm.jojosbizarreadventuresoundboard_goldenwindpart1_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971988417061-g6umcj67ks0sljlbfukr56cfblkteeth.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "soundboys.wm.jojosbizarreadventuresoundboard_goldenwindpart1_4",
+            "certificate_hash": "74b18425d8a151c4a2a6d0aa9888400b192fa579"
+          }
+        },
+        {
+          "client_id": "971988417061-foj1hp52tarb92d5g4726jrbf0e0qpkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgRJHoFQS-QEZEVWKOWy3SjzeHr29QE9s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971988417061-foj1hp52tarb92d5g4726jrbf0e0qpkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FavoriteActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/favorite_toolbar"/>
+
+    <ru.noties.sbv.ScrollingBackgroundView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sbv_drawable="@drawable/bg_pattern"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/favorite_toolbar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/favoriteRecyclerView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/favorite_toolbar"
+        android:layout_above="@id/adView"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4612423874107732/8564370325">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

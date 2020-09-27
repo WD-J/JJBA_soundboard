@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SoundboardActivity"
+    android:id="@+id/activity_soundboard">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/soundboard_toolbar" />
+
+    <ru.noties.sbv.ScrollingBackgroundView
+        android:id="@+id/scrolling_background_view"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sbv_drawable="@drawable/bg_pattern"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/soundboard_toolbar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/soundboardRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/soundboard_toolbar"
+        android:layout_above="@id/adView"/>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4612423874107732/8564370325"></com.google.android.gms.ads.AdView>
+
+    <Button
+        android:onClick="b1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Privacy Policy"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/pause"
+        android:textSize="11dp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

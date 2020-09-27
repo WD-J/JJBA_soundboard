@@ -1,0 +1,249 @@
+<resources>
+
+    <!-- Here you can change the name of the app -->
+    <string name="app_name">JJBA Soundboard</string>
+
+    <!-- Fill this string-array "list" with the names for your buttons -->
+    <string-array name="soundNames">
+        <item>*boing sound 1*</item>
+        <item>*boing sound 2*</item>
+        <item>*boing sound 3*</item>
+        <item>*Pizza mozzarella song*</item>
+        <item>*Hora hora*</item>
+        <item>*Oingoboingo holhorse ending*</item>
+        <item>*Select your car*</item>
+        <item>*Spice Girl!*</item>
+        <item>*Tiziano saying Squalo*</item>
+        <item>*Trish Arrivierci*</item>
+        <item>*WANNABE!*</item>
+        <item>Bites za dusto! (game)</item>
+        <item>Daisan no bakudan</item>
+        <item>Diavalo line</item>
+        <item>Doppio line</item>
+        <item>Doppio line 2</item>
+        <item>Doppio line 3</item>
+        <item>Epitaph</item>
+        <item>hehehe</item>
+        <item>Kekkadakkada</item>
+        <item>Killer queen! (game)</item>
+        <item>King Crimson! (game)</item>
+        <item>Notorious B.I.G.</item>
+        <item>number 2,3,6,7</item>
+        <item>Shoot Mista!</item>
+        <item>Shot sound</item>
+        <item>Slicing sound</item>
+        <item>VOLAVOLAVOLA Volarevia (anime)</item>
+        <item>wh-what?!</item>
+        <item>Clash</item>
+        <item>HowManyBreadHaveUEatn</item>
+        <item>jojo ed 2full</item>
+        <item>jojo op 2</item>
+        <item>jojo op 2 eng full</item>
+        <item>jojo op 2 full</item>
+        <item>Giornooo!</item>
+        <item>Talking Head</item>
+        <item>Doppio ring</item>
+        <item>Hell 2 u</item>
+        <item>King Crimson ability</item>
+        <item>Look over here</item>
+        <item>Ack, Giorno!</item>
+        <item>Babyface!</item>
+        <item>babyface sound</item>
+        <item>bullet sound</item>
+        <item>Damn it!</item>
+        <item>Dimolto!</item>
+        <item>Gently Weeps!</item>
+        <item>Ghiacio scream 2</item>
+        <item>mista cry</item>
+        <item>mista gold exp</item>
+        <item>Muda Muda! ep19</item>
+        <item>number two number three</item>
+        <item>Ricocheting sound</item>
+        <item>Ghiaccio scream</item>
+        <item>Sunlight Yellow Overdrive!</item>
+        <item>tch</item>
+        <item>White Album!</item>
+        <item>Aerosmith!</item>
+        <item>Aerosmith sound</item>
+        <item>ARIARIARI!!!(anime)</item>
+        <item>Arrivederci</item>
+        <item>Beach boy!</item>
+        <item>The grateful dead!</item>
+        <item>Do you understand?</item>
+        <item>Fugo theme</item>
+        <item> Gold experience requiem</item>
+        <item>He killed Formaggio, I will kill him!</item>
+        <item>Let’s dance</item>
+        <item>Little feet!</item>
+        <item>Man in the mirror!</item>
+        <item>Mista laugh</item>
+        <item>Moriocho song</item>
+        <item>Oingoboingo theme</item>
+        <item>Purple haze!</item>
+        <item>Oh! That’s a baseball!</item>
+        <item>Ya-Yatazo</item>
+        <item>Yeah I get it fugo</item>
+        <item>Fighting Gold Full</item>
+        <item>You little shit! 2</item>
+        <item>Shoot!</item>
+        <item>Mista, he’s already on the radio!</item>
+        <item>Eat lead</item>
+        <item>Al Yankovic</item>
+        <item>Detonator sound</item>
+        <item>Hell no!</item>
+        <item>I can’t beat ur ass without getting closer</item>
+        <item>Johnny Ora!</item>
+        <item>Number5 cry</item>
+        <item>Sexpistolls chanting</item>
+        <item>U should worry about ur other eye</item>
+        <item>Pillar men theme (full)</item>
+        <item>Torture song</item>
+        <item>Sticky fingers! 2</item>
+        <item>Nani Buccelati</item>
+        <item>Moodyblues standcry</item>
+        <item>Moodyblues sound</item>
+        <item>Moodyblues!</item>
+        <item>Ah, ah, AhhA</item>
+        <item>Heavens door!</item>
+        <item>Awaken my masters</item>
+        <item>I wake up feeling so horny</item>
+        <item>SpeedwaGON</item>
+        <item>But I want some cake</item>
+        <item>Fighting gold</item>
+        <item>Hey what’s the deal with this!?</item>
+        <item>I told u to watch where ur going</item>
+        <item>Are you messing with me?!</item>
+        <item>You stupid delinquent!</item>
+        <item>What’s this?</item>
+        <item>German science is the best</item>
+        <item>Act 3 Freeze!</item>
+        <item>Giorno Muda! Anime</item>
+        <item>Have a dream I think is right</item>
+        <item>I G.Giovanna</item>
+        <item>It’s useless!</item>
+        <item>N-Nani!?</item>
+        <item>So close</item>
+        <item>S-Shit!</item>
+        <item>Three Freeze</item>
+        <item>Beeetch!</item>
+        <item>Let`s kill da ho!</item>
+        <item>S H I T</item>
+        <item>The Hand noise</item>
+        <item>Dio! 2</item>
+        <item>Chimimi-in</item>
+        <item>Kira laugh 1</item>
+        <item>Kira laugh 2</item>
+        <item>Kira laugh 3</item>
+        <item>Star Platinum The World!</item>
+        <item>Time flows again 2</item>
+        <item>Time flows again Jotaro 1</item>
+        <item>Time flows again Jotaro 2</item>
+        <item>Time flows again Jotaro 3</item>
+        <item>You utter fool!</item>
+        <item>Emerald Splash! 2</item>
+        <item>Golden Exp sound</item>
+        <item>I, G.Giovanna, have a dream.</item>
+        <item>Stando!</item>
+        <item>You have two possible paths</item>
+        <item>What? Shit!</item>
+        <item>U relit the lighter didnt u?</item>
+        <item>But I refuse!</item>
+        <item>Stando Power!</item>
+        <item>CEASAR!!!</item>
+        <item>Come at me</item>
+        <item>Buzzing sound</item>
+        <item>Golden Experience! 2</item>
+        <item>JoJo jingle</item>
+        <item>Golden Exp- Muda!</item>
+        <item>Your senses will go berserk</item>
+        <item>Sticky Fingers!</item>
+        <item>The hell is your problem, fly?!</item>
+        <item>Boun Giorno</item>
+        <item>Ciao</item>
+        <item>Giorno Giovanna!</item>
+        <item>Gold Experience!</item>
+        <item>Muda muda</item>
+        <item>This is the taste of a liar</item>
+        <item>Well well well</item>
+        <item>You little shit!</item>
+        <item>Time flows again</item>
+        <item>Bites za dusto!</item>
+        <item>Bloody stream</item>
+        <item>Breakdown! 1</item>
+        <item>Breakdown! 2</item>
+        <item>Breakdown! 3</item>
+        <item>Breakdown! 4</item>
+        <item>ARIARIARI!!!</item>
+        <item>Dio!</item>
+        <item>Dio Muda! 1 </item>
+        <item>Dio Muda! 2</item>
+        <item>Dio Muda! 3</item>
+        <item>Do you understand?!</item>
+        <item>Emerald splash!</item>
+        <item>Giorno Muda! 1</item>
+        <item>Giorno Muda! 2</item>
+        <item>Go ahead Mr.Joestur</item>
+        <item>DIO counting 5</item>
+        <item>Goodbye JoJo!</item>
+        <item>Gureto desu-yo</item>
+        <item>Happy urepy yorapiku-ne</item>
+        <item>Hey baby</item>
+        <item>HinjakuHinjaku</item>
+        <item>Holy Shit!</item>
+        <item>DIO counting 1</item>
+        <item>Jolyne Ora</item>
+        <item>Josuke DORA!</item>
+        <item>Jotaro+DIO Ora+Muda!</item>
+        <item>Jotaro Ora 1</item>
+        <item>Jotaro Ora 2</item>
+        <item>Jotaro Ora 3</item>
+        <item>Kars Laugh</item>
+        <item>Kira queen</item>
+        <item>Kono Dio da</item>
+        <item>Kono Dio Ga</item>
+        <item>Morio-Cho Radio</item>
+        <item>Vola!</item>
+        <item>DIO counting 2</item>
+        <item>Nice!</item>
+        <item>Nigerundayo!</item>
+        <item>OhMyGod! 1</item>
+        <item>OhMyGod! 2</item>
+        <item>Oh no! 1</item>
+        <item>Oh no! 2</item>
+        <item>Oh Shit!</item>
+        <item>ReroReroRero</item>
+        <item>Rodorolla-ga!</item>
+        <item>DIO counting 6</item>>
+        <item>DIO counting 3</item>
+        <item>Sono chi no sadame</item>
+        <item>Son of a bitch!</item>
+        <item>Za Warudo!</item>
+        <item>Time stops</item>
+        <item>Tokio tomare!</item>
+        <item>Wannabe cry</item>
+        <item>Very nicu Ceasar-chan</item>
+        <item>Wryy!</item>
+        <item>Yare yare daze</item>
+        <item>Yes I am!</item>
+        <item>DIO counting 4</item>
+    </string-array>
+
+    <!-- Text/Names for all popupmenu actions -->
+    <string name="action_send">Share</string>
+    <string name="action_ringtone">Save as ...</string>
+    <string name="action_favorite">Add favorite</string>
+    <string name="action_removefavorite">Remove favorite</string>
+    <string name="share_sound_title">Share sound via...</string>
+
+    <!-- Text/Names for all app menu actions -->
+    <string name="action_favorite_show">Favorites</string>
+    <string name="action_favorite_hide">Hide Favorites</string>
+    <string name="action_search">Search</string>
+
+    <!-- Error messages -->
+    <string name="perm_write_settings_error">Function requires settings permission (located in settings).</string>
+    <string name="perm_write_storage_error">Function requires storage permission (located in settings).</string>
+
+    <string name="privacy_policy"></string>
+
+</resources>

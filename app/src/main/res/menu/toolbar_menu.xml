@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <!--  <item
+        android:id="@+id/pause_sound"
+        android:icon="@drawable/pause"
+        android:title="Pause Sound"
+        app:showAsAction="always"/> -->
+
+  <item
+        android:id="@+id/buy_sound"
+        android:icon="@drawable/pluscirc"
+        android:title="Add Sound"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_favorite_show"
+        android:icon="@drawable/star"
+        android:iconTint="#0b1438"
+        android:title="@string/action_favorite_show"
+        app:showAsAction="always" />
+
+</menu>
